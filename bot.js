@@ -34,13 +34,42 @@ var channel = "509340794633715712";//ايدي الروم
 
 client.on('message', message => {
 if(message.content.startsWith('1s')) {
-if(message.author.id !== "420637382644072451") return;
+if(message.author.id !== "502474928466165760") return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
 }
 });
  
 
+
+
+
+var timer = setTimeout(timerFunc, 1000);
+
+
+client.on('message', message => {
+	if(message.content === '1'){
+        message.channel.send('#daily')
+    }
+});
+
+client.on('message', message => {
+	if(message.content === '2'){
+        message.channel.send('#credit')
+    }
+});
+
+client.on('message', message => {
+	if(message.content === '3'){
+        message.channel.send('#rep <@502474928466165760>')
+    }
+});
+
+client.on('message', message => {
+     if(message.content === '4'){
+        message.member.voiceChannel.join();
+    }
+});
 
 
 
