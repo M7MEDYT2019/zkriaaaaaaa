@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "506883940204675103"; // ايدي السررفر
-var channel = "509340794633715712";//ايدي الروم
+var server = "513741700594794507"; // ايدي السررفر
+var channel = "513741700594794511";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('** محمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمد **')
     },305);
@@ -16,16 +16,16 @@ var channel = "509340794633715712";//ايدي الروم
 
 
 client.on('ready', async() => {
-var server = "506883940204675103"; // ايدي السررفر
-var channel = "509340794633715712";//ايدي الروم
+var server = "513741700594794507"; // ايدي السررفر
+var channel = "513741700594794511";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('#daily')
     },8.64e+7);
 })
 
 client.on('ready', async() => {
-var server = "506883940204675103"; // ايدي السررفر
-var channel = "509340794633715712";//ايدي الروم
+var server = "513741700594794507"; // ايدي السررفر
+var channel = "513741700594794511";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('#rep <@314135031029170197>')
     },8.64e+7);
@@ -34,7 +34,7 @@ var channel = "509340794633715712";//ايدي الروم
 
 client.on('message', message => {
 if(message.content.startsWith('1s')) {
-if(message.author.id !== "420637382644072451") return;
+if(message.author.id !== "420637382644072451""306464381775118336") return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
 }
