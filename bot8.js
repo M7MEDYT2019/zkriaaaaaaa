@@ -43,10 +43,6 @@ message.channel.send(args);
 
 
 
-
-var timer = setTimeout(timerFunc, 1000);
-
-
 client.on('message', message => {
     if(message.content === '1'){
         message.channel.send('#daily')
