@@ -8,3 +8,14 @@ worker7: node bot7.js
 worker8: node bot8.js
 worker9: node bot9.js
 worker10: node bot10.js
+worker80: node bot80.js
+worker81: node bot81.js
+worker82: node bot82.js
+worker83: node bot83.js
+worker84: node bot84.js
+worker85: node bot85.js
+worker86: node bot86.js
+worker87: node bot87.js
+worker88: node bot88.js
+worker89: node bot89.js
+worker90: node bot90.js
