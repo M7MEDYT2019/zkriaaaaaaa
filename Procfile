@@ -10,6 +10,14 @@ worker9: node bot9.js
 worker10: node bot10.js
 worker11: node bot11.js
 worker12: node bot12.js
+worker13: node bot13.js
+worker14: node bot14.js
+worker15: node bot15.js
+worker16: node bot16.js
+worker17: node bot17.js
+worker18: node bot18.js
+worker19: node bot19.js
+worker20: node bot20.js
 worker80: node bot80.js
 worker81: node bot81.js
 worker82: node bot82.js
