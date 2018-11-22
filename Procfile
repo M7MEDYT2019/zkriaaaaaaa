@@ -48,6 +48,8 @@ worker47: node bot47.js
 worker48: node bot48.js
 worker49: node bot49.js
 worker50: node bot50.js
+worker51: node bot51.js
+worker52: node bot52.js
 worker80: node bot80.js
 worker81: node bot81.js
 worker82: node bot82.js
